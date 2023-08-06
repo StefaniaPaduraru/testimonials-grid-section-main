@@ -103,11 +103,15 @@ h2 {
   display: flex;
   align-items: center;
 }
+.grid-container {
+  margin: 10vh 0px;
+}
 
 /* Phones */
 @media only screen and (max-width: 600px) {
   .grid-container {
     display: block;
+    margin: 5vh 0px;
   }
   .item {
     margin: 1.9rem;
@@ -121,7 +125,7 @@ h2 {
     gap: 1.9rem;
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 1fr;
-    margin: 1.9rem;
+    
   }
   .item-1 {
     grid-column: 1;
